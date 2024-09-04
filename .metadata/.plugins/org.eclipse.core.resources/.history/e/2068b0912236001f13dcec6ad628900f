@@ -1,0 +1,11 @@
+package oops;
+
+public class ConstructorExample {
+String Name;
+int RollNo;
+
+public ConstructorExample(String name, int rollNo) {
+	this.Name = name;
+	this.RollNo = rollNo;
+}
+}

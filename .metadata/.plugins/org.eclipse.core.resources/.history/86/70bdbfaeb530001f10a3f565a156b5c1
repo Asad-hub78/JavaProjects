@@ -1,0 +1,17 @@
+package test;
+
+public class StringExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+System.out.println("Alan");
+System.out.println("Alan Sugae");
+
+String Fname = ("Alan");
+String Lname = ("Sugae");
+ System.out.println(Fname);
+ System.out.println(Lname);
+ String Fullname = Fname + Lname;
+	}
+
+}

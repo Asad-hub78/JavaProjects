@@ -1,0 +1,30 @@
+package test;
+
+public class Practice {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+System.out.println(100);
+int x = 10;
+int y = 2;
+System.out.println(x * y);
+ y =4;
+ System.out.println(x * y);
+ int z = (x * y);
+System.out.println(z);
+int a = (z - x);
+System.out.println(a);
+int s = (a/2 - x/2);
+System.out.println(s);
+	
+	//Array Example
+int [] values = {1, 2, 3, 4, 5, 6};
+System.out.println("First number " + values[0]);
+System.out.println("Second number " + values[1]);
+System.out.println(values.length);
+System.out.println("Last number" + values[values.length-1]);
+	
+	
+	}
+
+}
